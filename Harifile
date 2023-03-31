@@ -1,0 +1,6 @@
+From centos
+WORKDIR /tmp
+RUN echo "Hello tempfile" > /etc/tempfile
+ENV myname sai
+COPY linuxfile /root/
+ADD Devops.tar.gz /etc/
